@@ -1,0 +1,56 @@
+main {
+    height: calc(100vh - 108px);
+    background-image: url("https://wallpapercave.com/wp/wp3800310.jpg");
+    background-color: #f6e652;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  
+  header {
+    width: 100vw;
+    height: 108px;
+  }
+  
+  .navbar-brand {
+    font-size: 28px;
+  }
+  
+  button {
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #search {
+    margin: 35px 10px 30px 0;
+  }
+  
+  #drop {
+    margin: 35px 10px 30px 0;
+  }
+  
+  .btn-primary {
+    margin: 35px 10px 35px 0;
+  }
+  
+  #catch, #clear {
+    margin: 35px 0 35px 0;
+    color: white;
+    width: 400px;
+  }
+  
+  #results {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-wrap;
+  }
+  
+  .card {
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+  }
